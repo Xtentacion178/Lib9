@@ -780,6 +780,7 @@ TextButton.MouseButton1Click:Connect(function()
     end
 end)
 return {Frame2, Stroke, OnOff, Callback}
+  end
   
   function AddMobileToggle(Configs)
     local name = Configs.Name or "Atalho"
